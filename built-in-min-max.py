@@ -28,7 +28,7 @@ def minimum(value1, value2, value3, value4):
     min_value = value4
   return min_value
 
-print('The minimum value using the code provided to find the MINIMUM of any 4 values =',minimum(15,9,27,14),'\n')
+print('The minimum value using code to find the MINIMUM of any 4 values =',minimum(15,9,27,14),'\n')
 
 if minimum(15,9,27,14) == min(15,9,27,14):
-  print('YES!  MINIMUM does = Min \n\n')
+  print('YES!  MINIMUM does = Min \nAnd I did copy & edit code to come up with my own minimum function. \n')
