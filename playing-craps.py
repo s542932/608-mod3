@@ -43,18 +43,18 @@ for roll in range(6000):
     frequency12 += 1
     
 print(f'Face{"Frequency":>13}')
-print(f'{1:4}{Frequency1:>13}')
-print(f'{2:4}{Frequency2:>13}')
-print(f'{3:4}{Frequency3:>13}')
-print(f'{4:4}{Frequency4:>13}')
-print(f'{5:4}{Frequency5:>13}')
-print(f'{6:4}{Frequency6:>13}')  
-print(f'{7:4}{Frequency7:>13}')
-print(f'{8:4}{Frequency8:>13}')
-print(f'{9:4}{Frequency9:>13}')  
-print(f'{10:4}{Frequency10:>13}')
-print(f'{11:4}{Frequency11:>13}')
-print(f'{12:4}{Frequency12:>13}')
+print(f'{1:4}{frequency1:>13}')
+print(f'{2:4}{frequency2:>13}')
+print(f'{3:4}{frequency3:>13}')
+print(f'{4:4}{frequency4:>13}')
+print(f'{5:4}{frequency5:>13}')
+print(f'{6:4}{frequency6:>13}')  
+print(f'{7:4}{frequency7:>13}')
+print(f'{8:4}{frequency8:>13}')
+print(f'{9:4}{frequency9:>13}')  
+print(f'{10:4}{frequency10:>13}')
+print(f'{11:4}{frequency11:>13}')
+print(f'{12:4}{frequency12:>13}')
       
 craps = frequency2 + frequency3 + frequency12
 wins = frequency7 + frequency11
