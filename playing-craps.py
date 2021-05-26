@@ -58,7 +58,7 @@ print(f'{12:4}{Frequency12:>13}')
       
 craps = frequency2 + frequency3 + frequency12
 wins = frequency7 + frequency11
-print('Fraction of the time rolling craps = ', craps)
-print('Fraction of time rolling wins =' wins,
+print('\nFraction of the time rolling craps = ', craps/trails)
+print('Fraction of time rolling wins =' wins/trails)
   
   
