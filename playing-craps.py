@@ -16,7 +16,7 @@ frequency12 = 0
 #trials = 6000
 
 for roll in range(6000):
-  face = random.randrange(1,7) + randomg.randrange(1,7)
+  face = random.randrange(1,7) + random.randrange(1,7)
   if face == 1:
     frequency1 += 1
   elif face == 2:
