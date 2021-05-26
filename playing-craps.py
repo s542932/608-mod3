@@ -15,7 +15,7 @@ frequency12 = 0
 
 trials = 6000
 
-for roll in range(trails):
+for roll in range(trials):
   face = random.randrange(1,7) + random.randrange(1,7)
   if face == 1:
     frequency1 += 1
@@ -58,7 +58,7 @@ print(f'{12:4}{frequency12:>13}')
       
 craps = frequency2 + frequency3 + frequency12
 wins = frequency7 + frequency11
-print('\nFraction of the time rolling craps = ', craps/trails)
-print('Fraction of time rolling wins =', wins/trails)
+print('\nFraction of the time rolling craps = ', craps/trials)
+print('Fraction of time rolling wins =', wins/trials)
   
   
