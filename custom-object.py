@@ -21,5 +21,5 @@ tip = purchase.calculateTip(tipPercent)
   
 print('Tax =', tax)
 print('Tip = ',tip)
-print('Total =',purchase.calculateTotal(taxPercent, tipPercent)
+print('Total =',purchase.calculateTotal(taxPercent, tipPercent))
     
