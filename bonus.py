@@ -4,7 +4,7 @@ import math
 import random
 
 for roll in range(100):
-  print(random.randrange(1,101), end=' '):
+  print(random.randrange(1,101), end=' ')
   
 #print('\nThe population variance for a random dataset of 100 numbers = ',statistics.pvariance(random.randrange(0,101),'\n')
 #print('\nThe population standard deviation for the same dataset (using statistic.pstdev) = ',statistics.pstdev([1,3,4,2,6,5,3,4,5,2]),'\n')
